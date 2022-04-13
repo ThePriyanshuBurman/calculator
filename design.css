@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding:0;
+    line-height: 0.5;
+    background:linear-gradient(to left,rgb(173, 118, 218),#212425);
+    font-family: sans-serif;
+}
+h1 {
+    font-size: xx-large;
+    font-style: normal;
+    text-decoration: dashed;
+    text-transform: uppercase;
+    color: aliceblue;
+    margin-left:336px;
+    
+}
+h2 {
+    font-size: large;
+    font-style: normal;
+    text-transform:capitalize;
+    color: aliceblue;
+    margin-left: 722px;
+}
+
+.calculator{
+    width: 1740px;
+    padding-top: 97px;
+    padding-bottom: 60px;
+    top: 262px;
+    left: 75px;
+    transform: translate(-20%,-20%);
+    text-align: center;
+    transition: 0.25px;
+   
+}
+.button{
+    width: 38px;
+    height: 32px;
+    margin: 2px;
+    padding-top: 2;
+    font-size: medium;
+    border-style: none;
+background-color: antiquewhite;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 300;
+border-radius: 20px;
+
+}
+.operator{
+    width: 38px;
+    height: 32px;
+    margin: 2px;
+    padding-top: 2;
+    font-size: medium;
+    border-style: none;
+background-color: lightpink;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 100;
+border-radius: 20px;
+color: rgb(95, 56, 8);
+font-weight: bold;
+cursor: pointer;
+}
+.operator:hover,
+.button:hover{
+    transform: scale(1.2);
+}
+#zero{
+
+    height: 55;
+    width: 116;
+    font-size: 20;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 300;
+    
+    }
